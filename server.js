@@ -21,6 +21,12 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
+app.get('/', (request, response) => {
+
+  response.send('Server is online')
+
+})
+
 app.get('/test', (request, response) => {
 
   response.send('test request received')
@@ -33,12 +39,18 @@ app.get('/books', async (request, response, next) => {
     response.status(200).send(books);
   }
 
+
   catch (error) {
     next(error)
   }
 
 })
 
+app.get('*', (request, response) => {
+
+  response.send('Page not found')
+
+})
 
 app.use((error, req, res, next) => {
   res.status(500).send(error.message + "error")
