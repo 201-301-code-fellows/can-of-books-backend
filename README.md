@@ -22,7 +22,7 @@ This project is part of a class requirement for Code Fellows 301 lab-06.
 
 ## [Overview]
 
-<img src=""
+<img src="https://user-images.githubusercontent.com/105423307/199095639-8ae7ffa9-7751-45b6-9f93-08ace3d7f78f.png"
      alt="WRRC Diagram"
      style="float: left; margin-right: 10px; width:50%" />
 
