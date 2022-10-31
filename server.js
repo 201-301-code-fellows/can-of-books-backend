@@ -4,6 +4,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require("mongoose");
+const Book = require('./models/book.js');
 mongoose.connect(process.env.DB_URL);
 
 
@@ -25,9 +26,10 @@ app.get('/test', (request, response) => {
   response.send('test request received')
 
 })
-app.get('/books', async (request, response) => {
+app.get('/books', async (request, response, next) => {
   try {
     const books = await Book.find();
+    console.log(books)
     response.status(200).send(books);
   }
 
@@ -39,7 +41,7 @@ app.get('/books', async (request, response) => {
 
 
 app.use((error, req, res, next) => {
-  app.status(500).send(error.message + "error")
+  res.status(500).send(error.message + "error")
 })
 
 
