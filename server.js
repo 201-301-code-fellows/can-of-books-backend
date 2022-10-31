@@ -25,5 +25,12 @@ app.get('/test', (request, response) => {
   response.send('test request received')
 
 })
+app.get('/books', async (request, response) => {
+
+  response.send('test')
+
+})
+
+
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
