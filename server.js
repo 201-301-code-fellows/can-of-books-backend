@@ -26,9 +26,20 @@ app.get('/test', (request, response) => {
 
 })
 app.get('/books', async (request, response) => {
+  try {
+    const books = await Book.find();
+    response.status(200).send(books);
+  }
 
-  response.send('test')
+  catch (error) {
+    next(error)
+  }
 
+})
+
+
+app.use((error, req, res, next) => {
+  app.status(500).send(error.message + "error")
 })
 
 
