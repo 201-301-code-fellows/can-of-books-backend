@@ -1,4 +1,36 @@
-# Start your own "Can of Books" App
+# [Can of Books]
+
+---
+
+Number and name of feature: Feature A:
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 1700
+
+Finish time: 1730
+
+Actual time needed to complete: 30 minutes
+
+---
+
+[Live View of backend](https://code-can-of-books-backend.herokuapp.com/)
+
+## [Motivation]
+
+This project is part of a class requirement for Code Fellows 301 lab-06.
+
+## [Overview]
+
+<img src="https://user-images.githubusercontent.com/105423307/199095639-8ae7ffa9-7751-45b6-9f93-08ace3d7f78f.png"
+     alt="WRRC Diagram"
+     style="float: left; margin-right: 10px; width:50%" />
+
+## [Architecture]
+
+## [Build Status]
+
+## [Code Style]
 
 This repository has starter code to begin work on creating your own online bookshelf.
 
