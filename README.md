@@ -16,6 +16,22 @@ Actual time needed to complete: 30 minutes
 
 [Live View of backend](https://code-can-of-books-backend.herokuapp.com/)
 
+## [Motivation]
+
+This project is part of a class requirement for Code Fellows 301 lab-06.
+
+## [Overview]
+
+<img src=""
+     alt="WRRC Diagram"
+     style="float: left; margin-right: 10px; width:50%" />
+
+## [Architecture]
+
+## [Build Status]
+
+## [Code Style]
+
 This repository has starter code to begin work on creating your own online bookshelf.
 
 ## What can books do?
