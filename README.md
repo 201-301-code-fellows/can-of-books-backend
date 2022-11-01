@@ -2,15 +2,15 @@
 
 ---
 
-Number and name of feature: Feature A:
+Number and name of feature: Feature 1 Add MongoDB:
 
-Estimate of time needed to complete: 30 mins
+Estimate of time needed to complete: 60 mins
 
-Start time: 1700
+Start time: 1600
 
 Finish time: 1730
 
-Actual time needed to complete: 30 minutes
+Actual time needed to complete: 90 minutes
 
 ---
 
