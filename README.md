@@ -12,6 +12,19 @@ Finish time: 1730
 
 Actual time needed to complete: 90 minutes
 
+### Feature 2 - Add create / POST endpoint
+
+- Estimated: 1 hour
+- Time start: 5:15 pm
+- Time end: 6:15 pm
+- Actual time: 1 hour
+
+### Feature 3 - Add delete endpoint
+
+- Estimated: 1 hour
+- Time start: 5:15 pm
+- Time end: 6:15 pm
+- Actual time: 1 hour
 ---
 
 [Live View of backend](https://code-can-of-books-backend.herokuapp.com/)
