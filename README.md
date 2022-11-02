@@ -25,6 +25,14 @@ Actual time needed to complete: 90 minutes
 - Time start: 5:15 pm
 - Time end: 6:15 pm
 - Actual time: 1 hour
+
+
+### Feature 4 - Add update endpoint
+
+- Estimated: 1 hour
+- Time start: 5:15 pm
+- Time end: 6:15 pm
+- Actual time: 1 hour
 ---
 
 [Live View of backend](https://code-can-of-books-backend.herokuapp.com/)
