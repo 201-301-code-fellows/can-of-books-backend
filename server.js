@@ -72,6 +72,22 @@ async function deleteBooks(request, response, next) {
   }
 }
 
+// UPDATE
+
+app.put('/books/:bookId', updateBooks);
+
+async function updateBooks(req, res, next) {
+  try {
+    console.log('updating...')
+    const id = req.params.bookId;
+    const data = req.body;
+    const updatedBook = Book.findByIdAndUpdate(id, data, { new: true, overwrite: true });
+    res.status(200).send(updatedBook)
+  } catch (error) {
+    next(error);
+  }
+}
+
 
 // Improper URL handling
 app.get('*', (request, response) => {
